@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1346px;
+    margin: auto;
+}
+/* Header section styles */
+.navbar{
+    padding: 57px 0;
+}
+.nav__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__list{
+    display: flex;
+    gap: 36px;
+    align-items: center;
+}
+.nav__list__item > a{
+    text-decoration: none;
+    color: #111111;
+    font-weight: 700;
+}
+.nav__list__item{
+    list-style: none;
+    line-height: 22px;
+}
+#nav__list__home-item{
+    list-style: none;
+}
+#nav__list__home-item > a{
+    color: #646464;
+    text-decoration: none;
+    line-height: 22px;
+    font-weight: 700;
+}
+.nav__button{
+    padding: 5px 18px;
+    border-radius: 15px 0px 15px 0px;
+    border: none;
+    background-color: #CAA892;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+/* Main section styles*/
+
+.hero__wrapper{
+    display: flex;
+    align-items: center;
+    gap: 44px;
+}
+.hero__text{
+    width: calc(50% - 22px);
+}
+.hero__subtitle{
+    font-size: 20px;
+    color: #646464;
+    font-weight: 700;
+}
+.hero__title{
+    color: #212121;
+    font-size: 72px;
+}
+.hero__info{
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 10px 0;
+    color: #646464;
+}
+.hero__img{
+    width: calc(50% - 22px);
+}
+.hero__img > img{
+    width: 100%;
+}
+.hero__contact__btn{
+    padding: 12px 28px;
+    margin-top: 36px;
+    background-color: #37806B;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    border-radius: 20px 0px 20px 0px;
+    cursor: pointer;
+}
+/* Our services section syles*/
+.our-services__wrapper{
+    margin-top: 150px;
+}
+.our-services__subtitle{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+}
+.our-services__title{
+    font-size: 48px;
+}
+.our-services__cards{
+    display: flex;
+    gap: 37px;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 63px 60px;
+}
+.our-services-title__card{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+}
+.architecture__card, .interior-design__card, .planning__card{
+    border-radius: 60px 0px 60px 0px;
+    padding: 40px;
+    box-shadow: 0px 8px 20px 0px #00000024;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+.our-services-info__card{
+    padding: 12px;
+}
+.architecture__card{
+    color: white;
+    background-color: #CAA892;
+}
+
+/* About us section styles */
+
+.about-us__section{
+    margin-top: 236px;
+}
+.about-us__wrapper{
+    display: flex;
+    gap: 132px;
+}
+.about-us__text{
+    margin-top: 58px;
+}
+.about-us__title{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 57px;
+}
+.about-us__info{
+    margin-top: 22px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #646464;
+}
+.about-us__contact__btn{
+    padding: 10px 18px;
+    border: none;
+    margin-top: 46px;
+    background-color: #37806B;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 20px 0px 20px 0px;
+    cursor: pointer;
+}
+
+/* Experience section styles */
+
+.experience__section__wrapper{
+    display: flex;
+    align-items: center;
+    margin-top: 224px;
+    gap: 154px;
+}
+.experience__section__text{
+    width: calc(50% - 77px);
+}
+.experience__section__img{
+    width: calc(50% - 77px);
+}
+.experience__section__img > img{
+    width: 100%;
+}
+.experience__section__year{
+    font-weight: 700;
+    font-size: 288px;
+}
+.experience__section__info{
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 65px;
+}
+.experience__section__learn-more__btn{
+    padding: 12px 28px;
+    margin-top: 36px;
+    margin-bottom: 82px;
+    background-color: #37806B;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    border-radius: 20px 0px 20px 0px;
+    cursor: pointer;
+}
